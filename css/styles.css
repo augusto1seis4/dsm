@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+/*centralizar o site*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background-color: rgb(119, 113, 153);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+}
+
+.conteudo {
+  display: flex; /*ativa o flexbox*/
+}
+
+nav {
+  width: 30%;
+  background-color: rgb(91, 86, 119);
+  color: rgb(255, 255, 255);
+}
+
+main {
+  width: 70%;
+  background-color: rgb(71, 92, 131);
+  display: flex;
+  display: flex;
+}
+
+footer {
+  background-color: rgb(83, 77, 121);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: x-large;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+}
+
+section {
+  background-color: rgb(32, 32, 65);
+  padding: 10px;
+  width: 80%;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+aside {
+  background-color: rgb(56, 51, 85);
+  padding: 10px;
+  width: 30%;
+  margin-left: 20px;
+  color: white;
+  font-size: larger;
+}
+
+header .logo {
+  padding: 10px;
+  width: 30%;
+  margin-right: 10x;
+}
+
+header .titulo {
+  background-color: rgb(54, 26, 69);
+  padding: 20px;
+  width: 70%;
+  margin-right: 10x;
+}
+
+header .logo img {
+  padding: 10px;
+  width: 100%;
+  margin-right: 40px;
+}
+
+.imagens {
+  display: flex;
+
+}
+
+.vendas {
+  display: flex;
+}
+
+.vendas img{
+  background-color: rgb(70, 68, 159);
+  padding: 40px;
+  width: 52%;
+}
